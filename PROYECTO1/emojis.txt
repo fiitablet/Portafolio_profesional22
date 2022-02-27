@@ -1,0 +1,72 @@
+Cara sonriente (😀): &#128512;
+Cara sonriente con ojos cerrados (😁): &#128513;
+Risa (😆): &#128518;
+Llorando de la risa (😂): &#128514;
+Cara con gafas de empollón/listo/inteligente (🤓): &#129299;
+Cara pensante (🤔): &#129300;
+¡Ups! (😅): &#128517;
+Guiño (😉): &#128521;
+Contento/agradecido (😊): &#128522;
+Cuando algo está bueno (😋): &#128523;
+Ángel (😇): &#128519;
+Demonio (😈): &#128520;
+Ojos pícaros (😏): &#128527;
+Gafas de sol (😎): &#128526;
+Ojos con corazones (😍): &#128525;
+Ojos con estrellas (🤩): &#129321;
+Cara neutral (😐): &#128528;
+Cara de recelo (😒): &#128530;
+Cara de preocupación (😟): &#128543;
+Cara de tristeza/arrepentimiento 1 (😞): &#128542;
+Cara de tristeza/arrepentimiento 2 (😔): &#128532;
+Cara de arrepentimiento con gota de sudor (😓): &#128531;
+Cara de tristeza con lágrima (😢): &#128546;
+Apunto de llorar (😖): &#128534;
+Llorando (😭): &#128557;
+Cara de confusión (😕): &#128533;
+Beso neutral (😗): &#128535;
+Beso con corazón (😘): &#128536;
+Sacando la lengua (😛): &#128539;
+Sacando la lengua y guiñando el ojo (😜): &#128540;
+Sacando la lengua y riendo (😝): &#128541;
+Cara de enfado (😠): &#128544;
+Cara roja de enfado (😡): &#128545;
+Cara de queja/cansado (😩): &#128553;
+Mueca (😬): &#128556;
+Sorpresa 1 (😮): &#128558;
+Sorpresa 2 (😯): &#128559;
+Sorprendido/Consternado (😱): &#128561;
+Sonrojado (😳): &#128563;
+Dormir (😴): &#128564;
+Cara con máscara/asco (😷): &#128567;
+Facepalm/Tapándose la cara (🤦 ): &#129318;
+Mono tapándose los ojos (🙈): &#128584;
+Mono tapándose las orejas (🙉): &#128585;
+Mono tapándose la boca (🙊): &#128586;
+Excremento/Caca (💩): &#128169;
+Perdón (🙏): &#128591;
+Corazón rojo (💓): &#128147;
+Corazón roto (💔): &#128148;
+Corazón azul (💙): &#128153;
+Corazón verde (💚): &#128154;
+Corazón amarillo (💛): &#128155;
+Corazón morado (💜): &#128156;
+Bíceps (💪): &#128170;
+Aprobación / Ok / Dedo pulgar arriba / Thumbs up (👍): &#128077;
+Saludo vulcano (🖖): &#128406;
+Mano saludando (👋): &#128075;
+Aplausos (👏): &#128079;
+👉
+colores
+blue	#0000FF			navy	#000080
+fuchsia	#FF00FF			purple	#800080
+red	#FF0000			maroon	#800000
+yellow	#FFFF00			olive	#808000
+lime	#00FF00			green	#008000
+aqua	#00FFFF			teal	#008080
+black	#000000			gray	#808080
+white	#FFFFFF			silver	#C0C0C0
+<!-- <div class="menu-btn">
+        <! el fa -2x aumenta el doble el icono -->
+        <!-- <i class="fa fa-bars fa-2x"></i> -->
+    <!-- </div>  -->

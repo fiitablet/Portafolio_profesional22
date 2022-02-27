@@ -1,0 +1,34 @@
+<main class="holder">
+
+
+    <div class="columna left">
+        <h2> Complete este formulario</h2>
+        <form action="/Contacto" method="post" class="formulario">
+            <p>
+                <label for="">Nombre</label>
+                <input type="text" name="nombre"required="" placeholder="Emilio Ruizt" />
+            </p>
+            <p>
+                <label for="">Email</label>
+                <input type="text" name="email"required="" placeholder="Emilioruitz@gmail.com" />
+
+            </p>
+            <p>
+                <label for="">Teléfono</label>
+                <input type="text" name="tell" required="" placeholder="1134567848" />
+
+            </p>
+            <p>
+                <label for="">Mensaje</label>
+                <textarea name="comentario"></textarea>
+            </p>
+            <!-- aca pongo este tipo submite para modificar el boton  -->
+            <p><input type="submit" value="Enviar"></p>
+        </form>
+        {{#if message}}
+        <p> {{message}} </p>
+        {{/if}}
+    </div>
+    <div class="columna right">
+    </div>
+</main>

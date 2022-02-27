@@ -1,0 +1,245 @@
+/* familia de fuentes: 'Open Sans', sans-serif; */
+body{
+font-family: 'Open Sans', sans-serif;
+font-size: 16px;
+line-height: 22px;
+}
+
+header{
+ background-color: rgb(228, 17, 17);
+padding:16px 0;
+}
+
+header h1{
+/* todo los h1 dentro del h1 */
+color: white;
+/* tamaño del h1 */
+font-size: 40px;
+font-style: italic;
+/* grosor del h1 */
+font-weight: 300;
+/* nos queda uno arriba y abajo de otro,como el flex */
+display:inline-block; 
+position: relative;
+/* se nos sube el h1 arriba cerca del logo */
+bottom: 50px;
+}
+nav {
+    background-color:black;
+}
+
+nav ul{
+list-style:none;
+padding: 0;
+margin: 0;
+}
+
+nav ul li{
+display: inline-block;
+width: 24%;
+}
+
+nav ul li a{
+color: white;
+/* texto decorativo q viene predeterminado */
+text-decoration: none;
+/* se acomodan los botones y se ponen al centro */
+text-align: center;
+display: block;
+padding: 5px 0;
+}
+/* uso una seudoclase y veo el color cuando paso la manito sobre los botnoes */
+nav ul li a:hover{ 
+ background-color:grey ;
+}
+/* queda activado */
+nav ul li a.activo{
+background-color:grey ;
+}
+.homeimg img{
+max-width: 100%;
+margin:0 auto;
+} 
+h2{
+    color:rgb(228, 17, 17);
+}
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow:hidden;
+}
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid rgb(228, 17, 17);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.content-foo p{
+    color: #ccc;
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border:0;
+    font-weight:bold;
+    padding: 10px 20px;
+    background:rgb(228, 17, 17);
+    color: #fff;
+    font-size: 30px;
+    border:1px solid #ffff;
+    margin: 10px 0;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+.content-foo{
+    border: 3px solid #fff;
+    border-radius: 20%;
+    display:block;
+}
+
+.contain {
+max-width: 1055px;
+ margin: 0 auto; 
+text-align: center;
+}
+.tarifas p {
+max-width: 500px;
+}
+p{ 
+color: black;
+text-align: center;
+}
+h2{
+ text-align: center;
+    }
+
+.historia p{
+font-size:13px;
+}
+.personas{
+    display: flex;
+    /* espacio entre cajas */
+    justify-content: space-between;
+}
+.persona{
+    border: 1px solid gray;
+    /* 100/h da aprox 20,uso 18 para mas espacios entre ellos */
+    width: 18%;
+    text-align: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 8px;
+}
+.persona img{
+    /* img circular */
+border-radius: 50%;
+box-shadow: 0 0 5px gray;
+}
+.persona h5,.persona h6{
+    color: rgb(228, 17, 17);
+    margin: 0;
+}
+.persona p{
+    font-size: 12px;
+}
+/* fin nosotros */
+
+/* inicio especialidades */
+.especialidad img{
+border-radius: 50%;
+box-shadow: 0 0 5px black;
+}
+/* fin especialidades */
+/* inicio contacto */
+.columna{
+    width: 50%;
+}
+/* pongo uno al lado del otro */
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.formulario label{
+    vertical-align: top;
+    width: 90px;
+    /* o % */
+    display: inline-block;
+}
+.formulario input,.formulario textarea{
+    background-color: rgb(195,193,193);
+    border-radius: 5px;
+    border:1px solid #999;
+    font-size: 13px;
+    padding: 5px;
+    width: 65%;
+}
+.formulario textarea{
+    height: 160px;
+    /* determmino el area y saco la capacidad q el usuario mueva */
+    resize: none;
+}
+.formulario input[type="submit"]{
+/* cambia el ancho este para q sea en uno especifico */
+width:auto;
+background-color:rgb(228, 17, 17);
+box-shadow: gray;
+font-size: 19px;
+color:white;
+cursor: pointer;
+
+}
+/* fin contacto */
+
+/* clientes */
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.cards .card{
+    background:rgb(228, 17, 17) ;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display:block;
+}
+.cards .card > .contenido-texto-cards{
+    width: 60%;
+    color:#fff;
+}
+.cards .card > .contenido-texto-cards p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+.comentario{
+    color: white;
+}
